@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title></title>
+</head>
+<body>
+    <div id= "myDIV" class= "heading">
+        <h2>TO DO</h2>
+    </div>
+
+
+      
+
+
+   <div id = "listBox">
+    <ul id= "mainList"> 
+        
+
+       <form action="post" ><li>my finished task</li></form> 
+        <li><input type="checkbox" >My unfinished task 
+            <button type= "button" class = "abandonBtn">Abandon</button></li>
+        <li><input type="checkbox" >someone else's finished</li>
+        <li>someone else unfinished</li>
+        <li>unclaimed </li>
+        <li><input type="text" id= "myInput" placeholder="Enter a new task here">
+        <span onclick= "newElement()" class="addBtn">Add</span></li>
+        <li><span onclick= "removetask()" class= "removeBtn" >Remove Complete</span></li>
+
+    </ul>
+</div>
+
+</body>
+</html>

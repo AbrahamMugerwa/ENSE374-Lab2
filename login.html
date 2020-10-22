@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    
+    <script src="showorhide.js"></script>
+    <title>To do Prototype</title>
+
+    
+</head>
+<body onload= "myFunction3()">
+
+    <div class = "login" id= "first"><a  class ="log" onclick="myFunction()" >Log in</a></div>
+    <form action="todo.html" method="post" id = "loginPage">  
+        <div id = "login" >  
+        <h1>Log In</h1>
+        <input type="text" placeholder="Email adress" name="email" id= "email" required>
+        <br>
+        <input type="text" placeholder="Password" name="password" id= "password" required>
+        <br>
+        <button type="submit" class = "button">Log In</button>
+        </div>  
+    </form>
+    <div class = "login" id= "second"><a  class ="sign" onclick="myFunction2()" >Sign Up</a></div>
+    <form action="todo.html" method="post" id="signUpPage" onload="hide" >  
+        <div id = "login" >  
+        <h1>Sign up</h1>
+        <input type="text" placeholder="Email adress" name="email" id= "email" required>
+        <br>
+        <input type="text" placeholder="Password" name="password" id= "password" required>
+        <br>
+        <input type="text" placeholder="Authentication" name="authentication" id="authentication">
+        <br>
+        <button type="submit" class = "button">Sign Up</button>
+        </div>  
+    </form>
+</div>
+    
+</body>
+</html>

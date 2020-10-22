@@ -1,0 +1,127 @@
+
+*{ 
+    box-sizing:border-box;
+
+}
+
+ul li:nth-child(odd){
+    background:#f9f9f9
+}
+
+ul li:hover{
+    background: #ddd;
+}
+
+ul{
+    margin: 0px;
+    padding:0px;
+}
+
+ul li{
+cursor:pointer;
+position: relative;
+padding:12px 8px 12px 40px;
+list-style-type: none;
+background:grey;
+font-size:18px;
+transition: 0.2s;
+
+-webkicst-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+table{
+
+position: absolute;
+margin-top: 20px;
+margin-left: 200px;
+   
+}
+
+.addBtn {
+    padding: 3px;
+    background: #333333;
+    color: lightblue;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+
+  .listBox{
+      padding: 15px;
+      display: block;
+      block-size: 15%;
+  }
+
+
+form{
+   border:1px solid #ccc;
+   position: relative;
+   margin-left: 500px;
+   margin-right: 700px;
+}
+
+div{
+margin-left: 50px;
+margin-bottom: 30px;
+margin-top: 30px;
+
+}
+
+h1{
+    margin-left:30px;
+}
+
+button{
+    margin-top: 2px;
+    background-color: #4747e2;
+    color: white;
+    padding: 10px;
+  
+}
+
+link{
+color: blue;
+
+}
+.log{
+    border: 20px;
+    padding: 30px 130px;
+    width: 100%;
+    background-color: #88737338;
+    position: relative;
+    margin-left: 450px;
+    margin-right: 20px;
+}
+
+.sign
+{
+    border: 20px;
+    padding: 30px 125px;
+    width: 100%;
+    background-color: #88737338;
+    position: relative;
+    margin-left: 450px;
+    margin-right: 20px; 
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
